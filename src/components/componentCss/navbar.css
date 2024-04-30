@@ -1,0 +1,43 @@
+
+
+
+.navbar {
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        grid-template-columns:1fr 1fr ;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(193, 229, 241);
+        box-shadow:  -8px -8px 16px rgba(255,255,255,.6), 8px 8px 16px rgba(155, 125, 125, 0.6);    
+        padding: 16px;
+        border-radius: 100px;
+        background:radial-gradient( black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,
+        rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143) ,rgb(219, 143, 143), rgb(219, 143, 143),rgba(0, 0, 0, 0.311))
+
+    
+}
+
+.links {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.links a {
+
+    text-decoration: none;
+    color:rgb(219, 143, 143);
+    
+    margin-left: 20px;
+    font-style: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border:1px black; 
+    border-radius: 100px solid black;
+}
+
+ShoppingCart{
+    color:white;
+}

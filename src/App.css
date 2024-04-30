@@ -1,0 +1,23 @@
+
+*, body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #000000;
+
+
+}
+
+
+#actionBttns{
+    width: 25rem;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    align-items: center;
+    column-gap: 25px;
+    background-color: rgb(193, 229, 241);
+    box-shadow:  -8px -8px 16px rgba(255,255,255,.6), 8px 8px 16px rgba(155, 125, 125, 0.6);    
+    padding: 16px;
+    border-radius: 100px;
+    background:radial-gradient( rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143) ,rgb(219, 143, 143), rgb(219, 143, 143),rgba(0, 0, 0, 0.311))
+}
