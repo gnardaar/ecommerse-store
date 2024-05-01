@@ -41,13 +41,15 @@
     border-radius: 45px;
     border-bottom: 2px solid black;
     margin: 16px;
-    background: radial-gradient(rgba(252, 229, 96, 0.76),rgba(252, 229, 96, 0.76),rgba(252, 229, 96, 0.76),rgba(252, 229, 96, 0.76),rgba(252, 229, 96, 0.76),rgba(252, 229, 96, 0.76),rgba(211, 209, 209, 0.683), white,rgba(255, 191, 0, 0.482),rgba(211, 209, 209, 0.683),rgba(255, 217, 0, 0.559), rgba(211, 209, 209, 0.683));
-    box-shadow: 8px 8px 16px -1px rgba(10,99,169,.16), -8px -8px 8px -1px rgba(10,99,169,.16);
+    background: radial-gradient(rgba(252, 229, 96, 0.76), rgba(252, 229, 96, 0.76), rgba(252, 229, 96, 0.76), rgba(252, 229, 96, 0.76), rgba(252, 229, 96, 0.76), rgba(252, 229, 96, 0.76), rgba(211, 209, 209, 0.683), white, rgba(255, 191, 0, 0.482), rgba(211, 209, 209, 0.683), rgba(255, 217, 0, 0.559), rgba(211, 209, 209, 0.683));
+    box-shadow: 8px 8px 16px -1px rgba(10, 99, 169, .16), -8px -8px 8px -1px rgba(10, 99, 169, .16);
+
 }
 
 .product:hover {
     transition: 0.2s ease-in;
 }
+
 
 
 .addToCartBttn {
@@ -62,17 +64,18 @@
     padding-bottom: 5px;
     border-radius: 50px;
     font-size: 10px;
-    box-shadow: 8px 8px 16px -1px rgba(10,99,169,.16),  -8px -8px 16px -1px rgba(255,255,255,.7); 
+    box-shadow: 8px 8px 16px -1px rgba(63, 24, 24, 0.516), -8px -8px 16px -1px rgba(255, 255, 255, .7);
 
 }
 
 
 
-.addToCartBttn:hover{
-    background-color: rgba(0, 0, 0, 0.354);
-    color: #7ad99b;
+.addToCartBttn:hover {
+    background-color: rgba(244, 202, 209, 0.454);
+    color: #000000;
     cursor: pointer;
-    outline: 0.05em dashed lime;
+    font-weight: 100;
+    box-shadow: 10px, 10px 10px -1px rgb(219, 143, 143), -10px -10px 10px -1px rgb(228, 208, 208);
 
 }
 
@@ -80,7 +83,7 @@
     background-color: transparent;
     display: flex;
     justify-content: space-between;
-
+    font-size: 100px;
     border: none;
     min-width: 100px;
     padding-left: 10px;
@@ -89,39 +92,66 @@
     padding-bottom: 5px;
     border-radius: 50px;
     font-size: 10px;
-    box-shadow:  -10px -10px 10px -1px rgba(229, 125, 125, 0.7),10px 10px 10px -1px rgba(10,99,169,.16); 
+    box-shadow: inset 10px 10px 10px -1px rgba(226, 109, 109, 0.7), inset -10px -10px 10px -1px rgba(243, 169, 169, 0.16);
 }
 
-.removeFromCart:hover{
-    background-color: rgba(0, 0, 0, 0.354);
-    box-shadow: 8px 8px 16px -1px rgba(10,99,169,.16),  -8px -8px 16px -1px rgba(255,255,255,.7); 
-
-       
+.removeFromCartBttn:hover {
+    background-color: rgba(243, 177, 177, 0.7);
+    box-shadow: inset 10px 10px 10px -1px rgba(237, 34, 34, 0.16), inset -10px -10px 10px -1px rgba(229, 126, 126, 0.7);
 }
 
 
-#actionBttns{
+
+
+#actionBttns {
     width: 25rem;
     display: grid;
-    grid-template-columns:1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     column-gap: 25px;
-    background-color: rgb(193, 229, 241);
-    box-shadow:  -8px -8px 16px rgba(255,255,255,.6), 8px 8px 16px rgba(155, 125, 125, 0.6);    
+    box-shadow: -8px -4px 16px rgba(255, 255, 255, .6), 8px 4px 16px rgba(155, 125, 125, 0.6);
     padding: 16px;
-    border-radius: 100px;
-    background:radial-gradient( rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143),rgb(219, 143, 143) ,rgb(219, 143, 143), rgb(219, 143, 143),rgba(0, 0, 0, 0.311))
+    border-radius: 50px;
+    background: radial-gradient(rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgb(219, 143, 143), rgba(0, 0, 0, 0.311));
+
+    box-shadow: 10px, 10px 10px -1px rgb(219, 143, 143), -10px -10px 10px -1px rgb(219, 143, 143);
 }
 
-#actionBttns:hover{
-    box-shadow:  -8px -8px 16px rgba(255,255,255,.6), 8px 8px 16px rgba(155, 125, 125, 0.6);    
-    transition: all .3s ease-in-out;
+#actionBttns:hover {
+    box-shadow: -8px -8px 12px rgba(255, 255, 255, .6), 8px 8px 12px rgba(155, 125, 125, 0.6);
+    transition: all .6s ease-in-out;
+
+}
+
+.minusBttn {
+    color: red;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.minusBttn:hover {
+    transform: scale(1.5);
 }
 
 
-.minusBttn{
-    color:red;
+.plusBttn {
+    font-size: 16px;
+    color: green;
+    background-color: rgba(255, 255, 255, 0);
+
 }
-.plusBttn{
-    color:green;
+
+.addToCartBttn:nth-child(){
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) and (min-width:10px) {
+    .products {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+
+    }
+
 }

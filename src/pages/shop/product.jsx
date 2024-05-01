@@ -22,7 +22,7 @@ export const Product = (props) => {
       </div>
       <div  id="actionBttns">
         <button id="addBttn" className="addToCartBttn" onClick={() => addToCart(id)}>
-          <Plus className="plusBttn"/>Add to Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
+          <Plus className="plusBttn" style={{ transform:"scale(1.5)"}}/>Add to Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
         </button>
         <button id="removeBttn" className="removeFromCartBttn" onClick={() => removeFromCart(id)}>
           

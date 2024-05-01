@@ -13,7 +13,7 @@ export const PRODUCTS = [
     {
         id: 1,
         name: "Laptop",
-        description: "This is a laptop.",
+        description: "This is a laptop. its a super cool one",
         category: "Electronics",
         price: 2000.9,
         productImage:laptop
@@ -55,7 +55,7 @@ export const PRODUCTS = [
     {
         id: 6,
         name: "Speakers",
-        description: "These are speakers.",
+        description: "These are speakers.great audio and sound! Afordable low price too!!",
         category: "Audio",
         price: 300.99,
         productImage:speakers
